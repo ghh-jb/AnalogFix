@@ -1,0 +1,9 @@
+Package: c.ghh.analogfix
+Name: fix
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description:  Provides +[UIDevice tf_deviceHasFaceID] class method to fix SafeMode crash. THIS DOES NOT FIX RESPRING LOOPS WITH OLDABI!
+Maintainer: untether
+Author: untether
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
