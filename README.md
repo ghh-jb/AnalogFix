@@ -15,9 +15,13 @@ Fix Analog tweak SafeMode and preferences page crash on iOS 15.
 5) Install
 # Original tweak
 Q: How did you tested this on rootless?
+
 A: I just used Xinam1ne patcher on original Analog V1.1 (get it on: https://www.ios-repo-updates.com). Dirty but easy. Correctly set-up patcher is a very powerful tool.
 
+===
+
 Q: I have some problems with this fix, what should I do?
+
 A: Feel free to open issue and describe what exactly happens with crash log. Use OSAnalytics from PoomSmart or Cr4shed to find the culprit.
 # DONE:
 - Safe mode crash fixed
