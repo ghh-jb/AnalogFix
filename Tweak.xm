@@ -20,7 +20,7 @@
 //
 // This Path does not exist on Fugu15_Rootful
 // because we cant mutate root volume (SSV)
-// This should work on other rootful jailbreaks (nekojb/palera1n) tho
+// This should work on other rootful jailbreaks (nekojb/palera1n) tho (idk if they add /User symlink)
 const char* patch_path(const char* path) {
 	NSString* nspath = [NSString stringWithUTF8String:path];
 	if ([nspath hasPrefix:@"/User"]) {
